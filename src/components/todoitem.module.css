@@ -1,0 +1,33 @@
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start; /* Align items from the start */
+  align-items: center; /* Vertically center the itemName */
+  position: relative; /* Set relative positioning */
+}
+
+.itemName {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.deleteButton {
+  position: absolute;
+  right: 10px; /* Place the button 10px from the right of the .item container */
+  top: 50%; /* Move to 50% down */
+  transform: translateY(-50%); /* Shift it up by 50% of its own height */
+  padding: 12px 20px;
+  border: none;
+  background-color:   #4ed1e8;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.completed{
+  text-decoration: line-through;
+}
